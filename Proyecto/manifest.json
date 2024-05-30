@@ -1,0 +1,24 @@
+{
+    "name": "Resonancia",
+    "short_name": "Resonancia",
+    "theme_color": "#94794E",
+    "background_color": "#000",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "views/index.html",
+    "icons":[
+    {
+        "src":"assets/img/logo192.png",
+        "sizes":"192x192",
+        "type":"image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src":"assets/img/logo512.png",
+        "sizes":"512x512",
+        "type":"image/png"
+    }
+
+    ]
+  }

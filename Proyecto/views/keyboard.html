@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resonancia - Music Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <link rel="icon" href="../assets/img/icon.png" type="image/png" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-sm header__nav">
+            <div class="container">
+                <img class="header__nav__img" src="../assets/img/icon.png" />
+                <a class="header__nav__logo" href="/index">Resonancia</a> <!-- Nombre del logo -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <p class="greeting-message" id="greeting-message"></p>
+                    <ul class="navbar-nav header__nav__links" id="header-options"></ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main__content">
+        <!-- BANNER -->
+        <section class="main__content__bannerkeyboard">
+            <div class="container h-100 d-flex align-items-center justify-content-left">
+                <div>
+                    <h1 class="main__content__banner__title">About Keyboards</h1>
+                    <p class="main__content__banner__description">Choosing the perfect music keyboard is a big decision. Whether you’re buying your first keyboard or adding another instrument to your music-making collection, we’re here to help you navigate the vast array of choices to find your desired keyboard.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="iconbar">
+            <div class="container iconbar_instrument">
+                <img src="../assets/img/gg-iconbar.png">
+            </div>
+
+          
+        </section>
+        <section class="container categories">   
+            <div class="row aboutUs_items">                
+                <div class="col-sm-12 col-md-3 item">
+                    <h3>1. Complete climate control.</h3>
+                    <br>
+                    <h4>Total equipment acclimation in a temperature and humidity controlled environment.</h4>
+                </div>
+                <div class="col-sm-12 col-md-3 item">
+                    <h3>2. Resonancia's Keyboard Inspection</h3>
+                    <br>
+                    <h4> Our professional technicians, inspectors, and luthiers check every keyboard from a $400 up.</h4>
+                </div>
+                <div class="col-sm-12 col-md-3 item">
+                    <h3>3. Detailed photos of every item</h3>
+                    <br>
+                    <h4> We intricately capture the subtleties in tone and texture with exceptional precision, delivering unparalleled clarity in high-resolution instrumental keyboard performance.</h4>
+                </div>
+                <div class="col-sm-12 col-md-3 item">
+                    <h3>4. Preparing your instrument to home</h3>
+                    <br>
+                    <h4>We carefully repack and ship your keyboard, verifying it is in ready-to-play condition.</h4>
+                </div>
+        </section>
+
+        <section class="container categories">
+            <h1 class="categories__title text-center m-0">Keyboards:</h1>            
+            <div class="row categories_items" id="categories_items"></div> 
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer__container">
+            <h4 class="footer__container_copyright">© 2024 Esteban M - All rights reserved.</h4>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="../assets/js/header.js"></script>
+        <script src="/assets/js/product.js"></script>
+        <script src="../assets/js/categories.js"></script>
+    </footer>
+    </body>
+    
+    </html>
